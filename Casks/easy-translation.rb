@@ -9,7 +9,7 @@ cask "easy-translation" do
 
   conflicts_with cask: "easydict"
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Easydict.app"
 end
